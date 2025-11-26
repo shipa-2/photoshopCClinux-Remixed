@@ -7,10 +7,10 @@
   ██  ███    ███           ██                                                                    ┃
   ██  ███   ▟██▛▗▟████▙    ██      3- configure virtual drive          (winecfg)                 ┃
   ██  ███████▛  ██▋        ██                                                                    ┃
-  ██  ███       ▝▜█████▙   ██      4- uninstall photoshop                                        ┃
+  ██  ███       ▝▜█████▙   ██      4- exit                                                       ┃
   ██  ███             ██▌  ██                                                                    ┃
-  ██  ███        ▗▟████▛   ██      5- exit                                                       ┃
+  ██  ███        ▗▟████▛   ██                                                                    ┃
   ██                       ██                                                                    ┃
   ███████████████████████████                                                                    ┃
                      ┃                                                                           ┃
-                     ┗━━━━━━━━━━━┫ https://github.com/da1la/photoshopCClinux-Remixed ┣━━━━━━━━━━━┛
+                     ┗━━━━━━━━━━━┫ https://github.com/shipa-2/photoshopCClinux-Remixed ┣━━━━━━━━━┛
