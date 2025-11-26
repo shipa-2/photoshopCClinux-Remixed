@@ -3,7 +3,7 @@
 
 ![screenshot](images/Screenshot.png)
 
-![wine version](https://img.shields.io/badge/wine-8.20-red) ![Tested on arch](https://img.shields.io/badge/Tested%20on-Archlinux-brightgreen) ![GitHub stars](https://img.shields.io/github/stars/Gictorbit/photoshopCClinux) ![rep size](https://img.shields.io/github/repo-size/da1la/photoshopCClinux-Remixed) ![bash](https://img.shields.io/badge/zsh-5.9-magenta)
+![wine version](https://img.shields.io/badge/wine-10.0-red) ![Tested on arch](https://img.shields.io/badge/Tested%20on-Archlinux-brightgreen) ![GitHub stars](https://img.shields.io/github/stars/shipa-2/photoshopCClinux-Remixed) ![rep size](https://img.shields.io/github/repo-size/shipa-2/photoshopCClinux-Remixed) ![bash](https://img.shields.io/badge/zsh-5.9-magenta)
 </div>
 
 # Photoshop CC v19 installer for Linux
@@ -35,7 +35,7 @@ sudo pacman -Syyu lolcat wine winetricks wine-mono wine-gecko
 
 2. more than 3 braincells
 
-3. at least 5GB in your /home directory (or you can use -d /path/to/dir)
+3. at least 5GB in your /home directory (or you can use -d /path/to/dir(broken btw))
 
 4. internet connection and about 40 minutes
 
@@ -43,7 +43,7 @@ sudo pacman -Syyu lolcat wine winetricks wine-mono wine-gecko
 1. clone this repo
 
 ```bash
-git clone https://github.com/da1la/photoshopCClinux-Remixed.git && cd photoshopCClinux-Remixed
+git clone https://github.com/shipa-2/photoshopCClinux-Remixed.git && cd photoshopCClinux-Remixed
 ```
 2. run installer
 
@@ -61,10 +61,7 @@ chmod +x setup.sh && ./setup.sh
 4. all done, just wait
 
 ## :wine_glass: wineprefix Configuration
-if you need to configure the wineprefix of photoshop you can use `winecfg.sh` script just run the command below
-```bash
-chmod +x winecfg.sh && ./winecfg.sh
-```
+Select (winecfg) in setup.sh
 ## :hammer: Tools
 
 <details>
@@ -93,12 +90,7 @@ just select option in the installer
 </details>
 
 ## :hotsprings: Uninstall
-to uninstall photoshop you can use the uninstaller script with commands below
-
-```bash
-chmod +x uninstaller.sh && ./uninstaller.sh
-```
-
+You can delete the folder manually, uninstaller is broken
 
 ## :bookmark: License
 ![GitHub](https://img.shields.io/github/license/Gictorbit/photoshopCClinux?style=for-the-badge)
