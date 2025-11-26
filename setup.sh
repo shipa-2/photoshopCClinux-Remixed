@@ -3,7 +3,10 @@
 function main() {
     
     #print banner
-    banner
+    cat images/banner.txt | lolcat
+
+    SCR_PATH="$HOME/.photoshopCCV19"
+    CACHE_PATH="$HOME/.cache/photoshopCCV19"
 
     #read inputs
     read_input
@@ -25,13 +28,9 @@ function main() {
         echo -n "open virtualdrive configuration..."
         run_script "scripts/winecfg.sh" "winecfg.sh"
         ;;
-    4)  
-        echo -n "uninstall photoshop CC ..."
-        run_script "scripts/uninstaller.sh" "uninstaller.sh"
-        ;;
-    5)  
+    4)
         echo "exit setup..."
-        exitScript
+        exit
         ;;
     esac
 }
@@ -63,29 +62,13 @@ function wait_second() {
 function read_input() {
     while true ;do
         read -p "[choose an option]$ " choose
-        if [[ "$choose" =~ (^[1-5]$) ]];then
+        if [[ "$choose" =~ (^[1-4]$) ]];then
             break
         fi
-        warning "choose a number between 1 to 5"
+        warning "choose a number between 1 to 4"
     done
 
     return $choose
-}
-
-function exitScript() {
-    echo "Good Bye :)"
-}
-
-function banner() {
-    local banner_path="$PWD/images/banner"
-    if [ -f $banner_path ];then 
-        clear && echo ""
-        cat $banner_path
-        echo ""
-    else
-        error "banner not Found..."
-    fi
-    unset banner_path
 }
 
 function error() {
