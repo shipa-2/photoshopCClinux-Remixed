@@ -60,11 +60,8 @@ chmod +x setup.sh && ./setup.sh
 
 4. all done, just wait
 
-## :wine_glass: wineprefix Configuration
-Select (winecfg) in setup.sh
 ## :hammer: Tools
 
-<details>
 <summary>:sparkles: Liquify Tools</summary>
 as you know photoshop has many useful tools like `Liquify Tools`.</br>
 
@@ -79,15 +76,6 @@ photoshop uses the `GPU` to process these tools so before using these tools make
 * in the graphics processor settings section, uncheck `Use graphics processor`
 
 ![](https://user-images.githubusercontent.com/34630603/80861998-117b7a80-8c87-11ea-8f56-079f43dfafd9.png)
-</details>
-
----
-<details>
-<summary>:camera: Adobe Camera Raw</summary>
-
-just select option in the installer
-
-</details>
 
 ## :hotsprings: Uninstall
 You can delete the folder manually, uninstaller is broken
