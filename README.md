@@ -35,7 +35,7 @@ sudo pacman -Syyu lolcat wine winetricks wine-mono wine-gecko
 
 2. more than 3 braincells
 
-3. at least 5GB in your /home directory (or you can use -d /path/to/dir(broken btw))
+3. at least 5GB in your /home directory
 
 4. internet connection and about 40 minutes
 
